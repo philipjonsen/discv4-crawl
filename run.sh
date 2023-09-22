@@ -81,6 +81,10 @@ generate_list() {
   filter_list sepolia all   -limit 250
   filter_list sepolia les   -limit 25   -les-server
   filter_list sepolia snap  -limit 25   -snap
+
+  # Holesky
+  filter_list holesky all   -limit 250
+  filter_list holesky snap  -limit 25   -snap
 }
 
 sign_lists() {
